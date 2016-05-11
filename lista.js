@@ -1,16 +1,33 @@
 angular.module ('app',[]).controller("MainController", function() {
 	this.task = [
       {
-      	name:"Go to grocery",
+      	name:"food",
       	done: false
       },
       {
-      	name: "Walk the dog",
+      	name: "dog",
       	done: false
       },
       {
-      	name: "Dinner with boss",
+      	name: "kat",
+      	done: false
+      },
+      {
+      	name: "car",
+      	done: false
+      },
+      {
+      	name: "drinks",
+      	done: false
+      },
+      {
+      	name:"mail",
+      	done: false
+      },
+      {
+      	name: "phone",
       	done: false
       }
+
         	] ;
  } );
